@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <title>LE Advisory doo | Poslovno savetovanje</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #0f172a;
+            color: #e5e7eb;
+        }
+        h1, h2, h3 {
+            margin: 0 0 12px;
+        }
+        p {
+            margin: 0 0 12px;
+            line-height: 1.6;
+        }
+        section {
+            padding: 80px 6%;
+        }
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, #0ea5e9, #2563eb);
+        }
+        .hero-card {
+            background: rgba(15, 23, 42, 0.85);
+            padding: 48px;
+            border-radius: 16px;
+            max-width: 720px;
+        }
+        .subtitle {
+            font-size: 18px;
+            color: #cbd5f5;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+        }
+        .card {
+            background: #020617;
+            border-radius: 16px;
+            padding: 28px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .about {
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+        .about img {
+            width: 100%;
+            border-radius: 16px;
+        }
+        .process-step {
+            font-weight: 600;
+            color: #38bdf8;
+        }
+        .contact {
+            min-height: 100vh;
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 40px;
+            align-items: center;
+            background: linear-gradient(135deg, #020617, #020617);
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 12px;
+            border-radius: 8px;
+            border: none;
+            background: #0f172a;
+            color: #e5e7eb;
+        }
+        .contact-form button {
+            padding: 12px;
+            width: 100%;
+            border-radius: 8px;
+            border: none;
+            background: #38bdf8;
+            color: #020617;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        footer {
+            background: #020617;
+            text-align: center;
+            padding: 24px 6%;
+            font-size: 14px;
+            color: #94a3b8;
+        }
+        @media (max-width: 900px) {
+            .about, .contact {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- 1. Glavni ekran -->
+<section class="hero">
+    <div class="hero-card">
+        <h1>LE Advisory doo</h1>
+        <p class="subtitle">
+            Strateško poslovno savetovanje za kompanije koje žele stabilan rast, jasnu organizaciju i efikasne procese. 
+            Pomažemo vlasnicima i menadžmentu da donose odluke zasnovane na podacima, a ne pretpostavkama, i da izgrade operativne sisteme koji dugoročno funkcionišu.
+        </p>
+    </div>
+</section>
+
+<!-- 2. O nama -->
+<section>
+    <h2>Ko smo i kako razmišljamo</h2>
+    <div class="about">
+        <div>
+            <p>
+                LE Advisory doo je savetodavna kompanija fokusirana na unapređenje upravljanja, interne organizacije i tehničkih procesa u poslovanju. 
+                Radimo sa malim i srednjim preduzećima koja se nalaze u fazi rasta, reorganizacije ili profesionalizacije poslovanja.
+            </p>
+            <p>
+                Naš pristup je praktičan i usmeren na rezultate – ne nudimo teoriju, već konkretna rešenja primenljiva u svakodnevnom radu. 
+                Razumemo izazove sa kojima se suočavaju menadžeri, od kontrole troškova do koordinacije timova.
+            </p>
+            <p>
+                Kroz analizu, strukturiranje i tehničku podršku, pomažemo kompanijama da rade jednostavnije, brže i efikasnije.
+            </p>
+        </div>
+        <img src="https://media.istockphoto.com/id/2223201175/photo/two-young-women-smiling-and-talking-while-working-together-at-a-laptop.webp?a=1&b=1&s=612x612&w=0&k=20&c=CJVmI9UWZKxH_6BfQEVkPlNvjBGE6EEtXb-phz2s_To=" alt="LE Advisory tim">
+    </div>
+</section>
+
+<!-- 3. Servisi -->
+<section>
+    <h2>Naše ključne usluge</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Poslovno i menadžment savetovanje</h3>
+            <p>
+                Pomažemo vlasnicima i direktorima u definisanju strategije, strukture odlučivanja i upravljačkih modela. 
+                Fokusirani smo na jasne ciljeve, odgovornosti i merljive rezultate.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Administrativna i operativna podrška</h3>
+            <p>
+                Unapređujemo interne administrativne procese, dokumentaciju i tokove rada. 
+                Cilj je smanjenje operativnog opterećenja i veća transparentnost poslovanja.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Tehničko i procesno savetovanje</h3>
+            <p>
+                Analiziramo postojeće sisteme, alate i procedure koje koristite u radu. 
+                Predlažemo optimizacije koje povećavaju efikasnost i smanjuju greške.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- 4. Prednosti -->
+<section>
+    <h2>Zašto klijenti biraju LE Advisory</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Praktičan pristup</h3>
+            <p>
+                Radimo sa realnim podacima i stvarnim izazovima vašeg poslovanja, bez generičkih rešenja.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Fokus na dugoročnu stabilnost</h3>
+            <p>
+                Naša rešenja su osmišljena tako da funkcionišu i nakon završetka saradnje.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Fleksibilna saradnja</h3>
+            <p>
+                Prilagođavamo se veličini, industriji i trenutnoj fazi razvoja vaše kompanije.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- 5. Proces -->
+<section>
+    <h2>Kako izgleda saradnja</h2>
+    <div class="cards">
+        <div class="card">
+            <p class="process-step">1. Analiza</p>
+            <p>
+                Upoznajemo se sa vašim poslovanjem, identifikujemo izazove i ključne tačke za unapređenje.
+            </p>
+        </div>
+        <div class="card">
+            <p class="process-step">2. Planiranje rešenja</p>
+            <p>
+                Definišemo konkretne korake, prioritete i model implementacije prilagođen vašem timu.
+            </p>
+        </div>
+        <div class="card">
+            <p class="process-step">3. Implementacija i podrška</p>
+            <p>
+                Pratimo sprovođenje dogovorenih rešenja i pružamo kontinuiranu savetodavnu podršku.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- 6. Kontakti -->
+<section class="contact">
+    <div>
+        <h2>Hajde da započnemo razgovor</h2>
+        <p>
+            Ako razmišljate o unapređenju upravljanja, organizacije ili procesa u vašoj kompaniji, 
+            pozivamo vas da nam se javite putem emaila. Prvi razgovor je usmeren na razumevanje vaših potreba i ciljeva.
+        </p>
+        <p>
+            <strong>Email:</strong> contact@leadvisory.agency<br>
+            <strong>Adresa:</strong> Olimpijska 54D, Vrnjačka Banja, Raški 36210, PAK 567493
+        </p>
+    </div>
+    <div class="card contact-form">
+        <h3>Kontakt forma</h3>
+        <input type="text" placeholder="Vaše ime">
+        <input type="email" placeholder="Vaša email adresa">
+        <textarea rows="4" placeholder="Kratko opišite vaš upit"></textarea>
+        <button>Pošalji upit</button>
+    </div>
+</section>
+
+<!-- 8. Footer -->
+<footer>
+    © 2026 LE Advisory doo. Sva prava zadržana.
+</footer>
+
+</body>
+</html>
